@@ -12,7 +12,7 @@ import Postbox
 import TelegramCore
 import SyncCore
 
-let maximumNumberOfAccounts = 3
+let maximumNumberOfAccounts = 100
 
 
 func activeAccountsAndPeers(context: AccountContext, includePrimary: Bool = false) -> Signal<((Account, Peer)?, [(Account, Peer, Int32)]), NoError> {
